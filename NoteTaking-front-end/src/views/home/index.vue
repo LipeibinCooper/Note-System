@@ -1,9 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="App">
-    <router-view></router-view>
-  </div>
+  <div class="home">123</div>
 </template>
 
 <style lang="scss" scoped></style>
