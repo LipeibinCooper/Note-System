@@ -12,14 +12,8 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest'
   },
-  // 不报index.vue文件中的组件命名错误
   rules: {
-    'vue/multi-word-component-names': [
-      'error',
-      {
-        ignores: ['index']
-      }
-    ]
-    // 或者："vue/multi-word-component-names": "off"
+    // 关闭vue文件命名检查
+    'vue/multi-word-component-names': 'off'
   }
 }

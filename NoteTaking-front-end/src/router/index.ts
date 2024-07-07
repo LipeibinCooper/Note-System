@@ -6,6 +6,12 @@ const routes = [
     name: 'home',
     component: () => import('@/views/home/index.vue'),
     children: []
+  },
+  {
+    path: '/fit',
+    name: 'fit',
+    component: () => import('@/views/fit/index.vue'),
+    children: []
   }
 ]
 
